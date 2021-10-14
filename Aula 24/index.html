@@ -8,8 +8,26 @@
     </head>
 
     <body>
-        <header>
-            header
+       <header>
+            <form action="receberLogin.php" method="post">
+                <fieldset>
+
+                    <legend>Logar no sistema</legend>
+
+                <div id="caixa">
+                    <label>Usuário:</label> 
+                    <input type="text" size="10" name="usuario" required="required">
+                    <br>
+                    <label>Senha</label>
+                    <input type="password" size="10" name="senha" required="required">
+                </div>
+
+                <div id="botoes">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Logar">
+                </div>
+                </fieldset>
+            </form>
         </header>
 
         <nav>
